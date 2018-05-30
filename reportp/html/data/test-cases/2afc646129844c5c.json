@@ -1,0 +1,159 @@
+{
+  "uid" : "2afc646129844c5c",
+  "name" : "Test_Login.test_login[ 13488834010-159357-True-\\u767b\\u5f55\\u6210\\u529f-\\u6210\\u529f]",
+  "fullName" : "test_login.Test_Login.test_login[ 13488834010-159357-True-\\u767b\\u5f55\\u6210\\u529f-\\u6210\\u529f]",
+  "historyId" : "54ed4f2a8b46052ad1500e9615ec8f16",
+  "time" : {
+    "start" : 1527647206390,
+    "stop" : 1527647232773,
+    "duration" : 26383
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <test_login.Test_Login object at 0x10da57550>, username = ' 13488834010', passwd = '159357', expectx = True\nexpect_toast = '登录成功', get_msg = '成功'\n\n    @pytest.mark.parametrize(\"username,passwd,expectx,expect_toast,get_msg\",get_login_data())\n    def test_login(self, username,passwd,expectx,expect_toast,get_msg):\n        # 点击登陆/注册\n        self.page_obj.get_login_page().click_insert_login()\n        # 登陆操作\n        self.page_obj.get_login_page().login(username, passwd)\n    \n        if expectx:\n            try:\n                # 登陆成功toast消息\n                suc_msg = self.page_obj.get_login_page().find_toast(get_msg)\n                # 获取我的订单按钮是否存在 成功返回True 不成功返回False\n                suc_status = self.page_obj.get_login_page().get_suc_login_status()\n                # 断言成功/失败\n>               assert suc_msg == expect_toast and  suc_status\nE               AssertionError: assert (False == '登录成功')\n\nScripts/test_login.py:42: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <test_login.Test_Login object at 0x10da57550>, username = ' 13488834010', passwd = '159357', expectx = True\nexpect_toast = '登录成功', get_msg = '成功'\n\n    @pytest.mark.parametrize(\"username,passwd,expectx,expect_toast,get_msg\",get_login_data())\n    def test_login(self, username,passwd,expectx,expect_toast,get_msg):\n        # 点击登陆/注册\n        self.page_obj.get_login_page().click_insert_login()\n        # 登陆操作\n        self.page_obj.get_login_page().login(username, passwd)\n    \n        if expectx:\n            try:\n                # 登陆成功toast消息\n                suc_msg = self.page_obj.get_login_page().find_toast(get_msg)\n                # 获取我的订单按钮是否存在 成功返回True 不成功返回False\n                suc_status = self.page_obj.get_login_page().get_suc_login_status()\n                # 断言成功/失败\n                assert suc_msg == expect_toast and  suc_status\n                # 退出操作\n                # 点击个人中心设置\n                self.page_obj.get_setting_page().click_setting_btn()\n                # 点击退出登录按钮\n                self.page_obj.get_setting_page().click_logout_btn()\n            except:\n                # 点击登陆页面关闭按钮\n                self.page_obj.get_login_page().login_faile_x()\n>               assert False\nE               assert False\n\nScripts/test_login.py:51: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <test_login.Test_Login object at 0x10da57550>, username = ' 13488834010', passwd = '159357', expectx = True\nexpect_toast = '登录成功', get_msg = '成功'\n\n    @pytest.mark.parametrize(\"username,passwd,expectx,expect_toast,get_msg\",get_login_data())\n    def test_login(self, username,passwd,expectx,expect_toast,get_msg):\n        # 点击登陆/注册\n        self.page_obj.get_login_page().click_insert_login()\n        # 登陆操作\n        self.page_obj.get_login_page().login(username, passwd)\n    \n        if expectx:\n            try:\n                # 登陆成功toast消息\n                suc_msg = self.page_obj.get_login_page().find_toast(get_msg)\n                # 获取我的订单按钮是否存在 成功返回True 不成功返回False\n                suc_status = self.page_obj.get_login_page().get_suc_login_status()\n                # 断言成功/失败\n>               assert suc_msg == expect_toast and  suc_status\nE               AssertionError: assert (False == '登录成功')\n\nScripts/test_login.py:42: AssertionError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <test_login.Test_Login object at 0x10da57550>, username = ' 13488834010', passwd = '159357', expectx = True\nexpect_toast = '登录成功', get_msg = '成功'\n\n    @pytest.mark.parametrize(\"username,passwd,expectx,expect_toast,get_msg\",get_login_data())\n    def test_login(self, username,passwd,expectx,expect_toast,get_msg):\n        # 点击登陆/注册\n        self.page_obj.get_login_page().click_insert_login()\n        # 登陆操作\n        self.page_obj.get_login_page().login(username, passwd)\n    \n        if expectx:\n            try:\n                # 登陆成功toast消息\n                suc_msg = self.page_obj.get_login_page().find_toast(get_msg)\n                # 获取我的订单按钮是否存在 成功返回True 不成功返回False\n                suc_status = self.page_obj.get_login_page().get_suc_login_status()\n                # 断言成功/失败\n                assert suc_msg == expect_toast and  suc_status\n                # 退出操作\n                # 点击个人中心设置\n                self.page_obj.get_setting_page().click_setting_btn()\n                # 点击退出登录按钮\n                self.page_obj.get_setting_page().click_logout_btn()\n            except:\n                # 点击登陆页面关闭按钮\n                self.page_obj.get_login_page().login_faile_x()\n>               assert False\nE               assert False\n\nScripts/test_login.py:51: AssertionError",
+    "steps" : [ {
+      "name" : "点击个人中心页面登陆/注册",
+      "time" : {
+        "start" : 1527647206397,
+        "stop" : 1527647209481,
+        "duration" : 3084
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "等页面信息操作",
+      "time" : {
+        "start" : 1527647209481,
+        "stop" : 1527647216963,
+        "duration" : 7482
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "393f3cde380f080a",
+        "name" : "登陆用户信息",
+        "source" : "393f3cde380f080a.txt",
+        "type" : "text/plain",
+        "size" : 51
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "获取toast提示消息",
+      "time" : {
+        "start" : 1527647216963,
+        "stop" : 1527647222254,
+        "duration" : 5291
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "登陆成功页面我的订单判断",
+      "time" : {
+        "start" : 1527647222254,
+        "stop" : 1527647232467,
+        "duration" : 10213
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "关闭登陆页面",
+      "time" : {
+        "start" : 1527647232467,
+        "stop" : 1527647232537,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "deMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "2356-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "test_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Login.test_login[ 13488834010-159357-True-\\u767b\\u5f55\\u6210\\u529f-\\u6210\\u529f]"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2afc646129844c5c.json",
+  "parameterValues" : [ ]
+}

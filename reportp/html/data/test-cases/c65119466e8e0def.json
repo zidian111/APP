@@ -1,0 +1,142 @@
+{
+  "uid" : "c65119466e8e0def",
+  "name" : "Test_Login.test_login[1348883401-159357000-None-\\u8d26\\u53f7\\u4e0d\\u5b58\\u5728!-\\u4e0d\\u5b58\\u5728]",
+  "fullName" : "test_login.Test_Login.test_login[1348883401-159357000-None-\\u8d26\\u53f7\\u4e0d\\u5b58\\u5728!-\\u4e0d\\u5b58\\u5728]",
+  "historyId" : "d4132cfc2ab3e161ceab57bcfaf14304",
+  "time" : {
+    "start" : 1527647242828,
+    "stop" : 1527647252825,
+    "duration" : 9997
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击个人中心页面登陆/注册",
+      "time" : {
+        "start" : 1527647242831,
+        "stop" : 1527647244588,
+        "duration" : 1757
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "等页面信息操作",
+      "time" : {
+        "start" : 1527647244588,
+        "stop" : 1527647251093,
+        "duration" : 6505
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "14d0e86521878112",
+        "name" : "登陆用户信息",
+        "source" : "14d0e86521878112.txt",
+        "type" : "text/plain",
+        "size" : 52
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "获取toast提示消息",
+      "time" : {
+        "start" : 1527647251093,
+        "stop" : 1527647252737,
+        "duration" : 1644
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d2dcc074be81960c",
+        "name" : "获取toast:",
+        "source" : "d2dcc074be81960c.txt",
+        "type" : "text/plain",
+        "size" : 22
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "关闭登陆页面",
+      "time" : {
+        "start" : 1527647252737,
+        "stop" : 1527647252824,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "deMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "2356-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "test_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Login.test_login[1348883401-159357000-None-\\u8d26\\u53f7\\u4e0d\\u5b58\\u5728!-\\u4e0d\\u5b58\\u5728]"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c65119466e8e0def.json",
+  "parameterValues" : [ ]
+}

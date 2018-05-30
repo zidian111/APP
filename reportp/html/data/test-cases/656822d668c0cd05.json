@@ -1,0 +1,157 @@
+{
+  "uid" : "656822d668c0cd05",
+  "name" : "Test_Login.test_login[18888888888-1593570-None-\\u8d26\\u53f7\\u4e0d\\u5b58\\u5728!-\\u4e0d\\u5b58\\u5728]",
+  "fullName" : "test_login.Test_Login.test_login[18888888888-1593570-None-\\u8d26\\u53f7\\u4e0d\\u5b58\\u5728!-\\u4e0d\\u5b58\\u5728]",
+  "historyId" : "bab308244320c4ced07de32b056eb167",
+  "time" : {
+    "start" : 1527647166085,
+    "stop" : 1527647191862,
+    "duration" : 25777
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击首页我的按钮",
+      "time" : {
+        "start" : 1527647180405,
+        "stop" : 1527647181526,
+        "duration" : 1121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "点击个人中心页面登陆/注册",
+      "time" : {
+        "start" : 1527647181527,
+        "stop" : 1527647182936,
+        "duration" : 1409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "等页面信息操作",
+      "time" : {
+        "start" : 1527647182936,
+        "stop" : 1527647190045,
+        "duration" : 7109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "59f38c1216f4cb2f",
+        "name" : "登陆用户信息",
+        "source" : "59f38c1216f4cb2f.txt",
+        "type" : "text/plain",
+        "size" : 51
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "获取toast提示消息",
+      "time" : {
+        "start" : 1527647190045,
+        "stop" : 1527647191514,
+        "duration" : 1469
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28536c68a0668b29",
+        "name" : "获取toast:",
+        "source" : "28536c68a0668b29.txt",
+        "type" : "text/plain",
+        "size" : 22
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "关闭登陆页面",
+      "time" : {
+        "start" : 1527647191514,
+        "stop" : 1527647191860,
+        "duration" : 346
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "deMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "2356-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "testClass",
+    "value" : "test_login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Login.test_login[18888888888-1593570-None-\\u8d26\\u53f7\\u4e0d\\u5b58\\u5728!-\\u4e0d\\u5b58\\u5728]"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "656822d668c0cd05.json",
+  "parameterValues" : [ ]
+}
